@@ -1,0 +1,47 @@
+<header class="header-section">
+  <div class="overlay"></div>
+  <div class="header-content">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">CREATIVE CV</div>
+      <ul class="navbar-nav">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">EXPERIENCE</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- Profile Image -->
+    <div class="profile-picture">
+      <img [src]="profile.image" alt="Profile Picture" />
+    </div>
+
+    <!-- Profile Details -->
+    <div class="profile-details">
+      <h1>{{ profile.name }}</h1>
+      <p>{{ profile.tagline }}</p>
+      <div class="header-buttons">
+        <a href="#" class="btn hire-me">Hire Me</a>
+        <a href="#" class="btn download-cv">Download CV</a>
+      </div>
+      
+      <!-- Social Icons Section -->
+      <div class="social-icons">
+        <a *ngIf="profile.linkedin" [href]="profile.linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a *ngIf="profile.github" [href]="profile.github" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a *ngIf="profile.twitter" [href]="profile.twitter" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a *ngIf="profile.email" href="mailto:{{ profile.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

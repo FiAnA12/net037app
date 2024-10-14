@@ -1,0 +1,22 @@
+<div class="skills-section">
+  <div class="skills-content">
+    <h2>Professional Skills</h2>
+  </div>
+  <div class="container">
+    <div class="skills-grid">
+      <div class="skill" *ngFor="let skill of skills">
+        <div class="skill-info">
+          <span>{{ skill.name }}</span>
+          <span>{{ skill.level }}%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" [ngStyle]="{ width: skill.level + '%' }"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

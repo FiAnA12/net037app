@@ -1,0 +1,16 @@
+<div class="portfolio-section">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-icons">
+      <i class="fas fa-laptop"></i> 
+      <i class="fas fa-image"></i> 
+      <i class="fas fa-camera"></i>
+   </div>   
+    <div class="portfolio-grid">
+      <div class="portfolio-item" *ngFor="let item of portfolio">
+        <img [src]="item.image" alt="{{ item.title }}">
+      </div>
+    </div>
+  </div>
+</div>
+

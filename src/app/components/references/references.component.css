@@ -1,0 +1,128 @@
+.references-section {
+  padding: 40px 0;
+}
+
+.references-title {
+  text-align: center;
+  font-size:1.2rem;
+}
+
+.container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.reference-carousel {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.reference-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reference-item {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.reference-item.active {
+  display: block;
+}
+
+.reference-dots {
+  margin-top: 20px;
+  text-align: center;
+  padding: 80px;
+}
+
+.reference-dots span {
+  height: 5px;
+  width: 50px;
+  margin: 0 3px;
+  background-color: gray;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reference-dots span.active {
+  background-color: #a10505;
+}
+
+.reference-dots span:hover {
+  background-color: darkgray;
+}
+
+.references-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.reference {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.reference-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.reference-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 0%;
+  object-fit: cover;
+  margin-right: 20px;
+  padding-top: 50px;
+}
+
+.reference-details {
+  flex: 1;
+  text-align: left;
+}
+
+.reference-details h3 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.reference-details p {
+  margin: 0;
+  color: #7c7c7c;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 80px;
+}
+
+.reference-text {
+  flex: 2;
+  padding-left: 20px;
+  color: #777;
+  text-align: left;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 150px;
+}
+
+.reference-dots {
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}

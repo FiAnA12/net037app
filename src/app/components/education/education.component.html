@@ -1,0 +1,21 @@
+<div class="education-section">
+  <div class="education-content">
+    <h2>Education</h2>
+  </div>
+  <div class="container">
+      <div class="education-item" *ngFor="let education of education">
+        <div class="timeline">
+          <p>{{ education.year }}</p>
+          <h2 style="font-weight: lighter;">{{ education.degree }}</h2>
+        </div>
+        <div class="details">
+          <h2>{{ education.major }}</h2>
+          <h4>{{ education.institution }}</h4>
+          <p>{{ education.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  

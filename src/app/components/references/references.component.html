@@ -1,0 +1,34 @@
+<div class="references-section">
+  <div class="references-title">
+    <h2>References</h2>
+  </div>
+  <div class="container">
+    <div class="reference-carousel">
+      <!-- This section is devloped to display the active reference only -->
+      <div class="reference" *ngIf="references && references.length">
+        <div class="reference-content">
+          <div class="reference-left">
+            <img [src]="references[currentReferenceIndex].image" alt="{{ references[currentReferenceIndex].name }}" class="reference-image">
+            <div class="reference-details">
+              <h3>{{ references[currentReferenceIndex].name }}</h3>
+              <p>{{ references[currentReferenceIndex].positioncompany }}</p>
+            </div>
+          </div>
+          <div class="reference-text">
+            <p>{{ references[currentReferenceIndex].testimonial }}</p>
+          </div>
+          <div class="reference-dots">
+            <span *ngFor="let ref of references; let i = index" 
+                  (click)="showReference(i)" 
+                  [class.active]="i === currentReferenceIndex"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  

@@ -1,0 +1,104 @@
+{
+    "profile": {
+      "name": "Fadjimata I.Anaroua",
+      "tagline": "PROGRAMMER, SOFTWARE ENGINEER, SYSTEMS DEVELOPER",
+      "image": "/assets/images/IMG_1700.jpg",
+      "linkedin": "https://www.linkedin.com/in/anaroua",
+    "github": "https://github.com/anaroua",
+    "twitter": "https://twitter.com/anaroua",
+    "email": "mailto:anthony@example.com"
+    },
+  "about": {
+    "description": "Hello! I am Fadjimata Anaroua, Programmer, Software Engineer, Systems Developer. I specialize in web development, software design, and systems architecture. Welcome to my professional portfolio.",
+    "who": "As a programmer, I have a passion for writing clean, efficient, and scalable code. I specialize in various programming languages and frameworks to create innovative software solutions, ranging from web development to system architecture.",
+    "age": 30,
+    "email": "fissoufou.anaroua@yahoo.com",
+    "phone": "647-203-2770",
+    "address": "North York, Ontario, CANADA",
+    "languages": "English, French"
+  },
+    "skills": [
+      { "name": "HTML", "level": 95 },
+      { "name": "CSS", "level": 75 },
+      { "name": "JAVASCRIPT", "level": 85 },
+      { "name": "REACT.JS", "level": 80 },
+      { "name": "SQL", "level": 70 },
+      { "name": "PYTHON", "level": 70 }
+    ],
+    "portfolio": [
+      { "title": "Content verse PHP Webapp", "image": "/assets/images/Content.jpg" },
+      { "title": "Social Media video app Flutter, Dart, Firebase", "image": "/assets/images/Social.jpg" },
+      { "title": "Multi Vendor eCommerce Website", "image": "/assets/images/multivendor.jpg" },
+      { "title": "Flight Delay analysis Python Flask web app", "image": "/assets/images/Flightdelaywebapp.jpg" }
+    ],
+    "experience": [
+      {
+        "role": "Software Engineer",
+        "company": "A&S Data Center",
+        "duration": "JANUARY 2023 - JANUARY 2024",
+        "description": "Collaborated with cross-functional teams to design, code, test, and deploy software solutions, often using programming languages like Java, Python, C++, or JavaScript, and tools like version control systems and development frameworks. designs, develops, and maintains software applications by applying engineering principles to the software development process. They work on solving complex problems, building scalable systems, and ensuring the functionality, reliability, and performance of software products."
+      },
+        
+      {
+        "role": "Full Stack Python Developer",
+        "company": "FAA Assure Lab",
+        "duration": "MAY 2021 - JAN 2023",
+        "description": "Full Stack Python Developer with expertise in databases and the Tkinter library responsible for developing both front-end and back-end components of applications. Used Python to build robust server-side logic and database management, ensuring seamless data storage, retrieval, and manipulation with databases like MySQL, PostgreSQL, or SQLite. On the front end, used the Tkinter library to create graphical user interfaces (GUIs) for desktop applications, allowing users to interact with the software visually. Handled end-to-end development, including UI design, business logic, and database integration, ensuring smooth functionality across the stack."
+      },
+
+      {
+        "role": "Full Stack Web Developer",
+        "company": "Rothwell Center",
+        "duration": "AUGUST 2020 - MAY 2021",
+        "description": "Responsible for designing and implementing the visual and interactive elements of a website or web application. Worked with HTML, CSS, and JavaScript to create responsive, user-friendly interfaces that ensure a seamless user experience. Collaborated with designers and back-end developers to ensure a smooth integration of design with functionality across different devices and browsers."
+      }
+    ],
+    "education": [
+      { "year": "2019 - 2021",
+        "degree": "Master of Science",
+        "major": "Master of Computer Science (Systems Engineering)",
+        "institution": "EMBRY RIDDLE AERONAUTICAL UNIVERSITY",
+        "description": "Master of Science in Computer & Systems Engineering focuses on advanced topics in computing, system design, and integration. It covers areas like software engineering, embedded systems, control systems, and network design, equipping students with the skills to design, analyze, and optimize complex technological systems. Graduates are prepared for leadership roles in industries like IT, automation, telecommunications, and systems management."
+      },
+      { 
+        "year": "2014 - 2016",
+        "degree": "Bachelor of Science",
+        "major": "Bachelor of Aeronautics",
+        "institution": "SCHOLL OF METEOROLOGY AND CIVIL AVIATION",
+        "description": "Bachelor of Science in Aeronautics focuses on the study of aviation, aircraft systems, and flight operations. It covers areas like aerodynamics, aviation safety, flight theory, aircraft maintenance, and aviation management. Graduates are prepared for careers in aviation-related fields such as pilot training, air traffic control, aircraft engineering, and aviation management."
+      },
+      {
+        "year": "2010 - 2013",
+        "degree": "Bachelor of Science",
+        "major": "Bachelor of Industrial & Systems Engineering",
+        "institution": "SCHOOL OF INDUSTRIAL ENGINEERING",
+        "description":"Bachelor of Industrial & Systems Engineering focuses on optimizing complex systems and processes across various industries. It covers areas like operations research, process engineering, supply chain management, quality control, and systems integration. Graduates are equipped with skills to improve efficiency, reduce costs, and enhance productivity in sectors such as manufacturing, logistics, healthcare, and consulting."
+      }
+    ],
+    "references": [
+      {
+        "image": "/assets/images/justin.jpg",
+        "name": "Justin",
+        "positioncompany": "DEVELOPER/ROTHWELL",
+        "testimonial": "Working with Fadjimata was a pleasure. She consistently demonstrated a strong work ethic, attention to detail, and a positive attitude. Fadjimata was always willing to take on new challenges and contributed greatly to the team's success. Her problem-solving skills and commitment to delivering high-quality work made them a valuable asset, and I have no doubt they will continue to excel in their future endeavors."
+      },
+      {
+        "image": "/assets/images/gabby.jpg",
+        "name": "Gabby",
+        "positioncompany": "DATA SCIENTIST/A&S",
+        "testimonial": "Collaborating with Fiana was truly enjoyable. She consistently showcased a strong work ethic, keen attention to detail, and a positive demeanor. Fiana was always eager to embrace new challenges and played a significant role in the team's achievements. Her exceptional problem-solving abilities and dedication to producing high-quality work made them an invaluable team member, and I am confident they will thrive in their future pursuits."
+      },
+      {
+        "image": "/assets/images/simon.jpg",
+        "name": "Simon",
+        "positioncompany": "PR MANAGER/ASSURE",
+        "testimonial": "It was a pleasure working alongside Fadji. She exhibited a solid work ethic, meticulous attention to detail, and a positive outlook. Fadji was quick to take on new tasks and made a substantial contribution to the team's success. Her problem-solving expertise and dedication to delivering excellent results made her a vital asset, and I have no doubt she will continue to succeed in their career."
+      }
+    ],
+    "contact": {
+      "address": "North York, Ontario, CANADA",
+      "email": "fissoufou.anaroua@yahoo.com",
+      "phone": "647-203-2770"
+    }
+  }
+  

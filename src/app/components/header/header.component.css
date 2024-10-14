@@ -1,0 +1,131 @@
+.header-section {
+  position: relative;
+  height: 70vh; 
+  background-image: url('/assets/images/back.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-bottom: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin-inline-start: 250px;
+  margin-inline-end: 350px;
+}
+
+.navbar-brand {
+  font-size: 1.9rem;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-nav li {
+  display: inline;
+}
+
+.navbar-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-top: 50px;        
+}
+
+.profile-picture img {
+  width: 250px;            
+  height: 250px;          
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.profile-details h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-details p {
+  font-size: 1.8rem;
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
+
+.header-buttons {
+  margin-bottom: 120px;
+}
+
+.btn {
+  background-color: #a10505;
+  color: white;
+  padding: 20px 60px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  min-width: 250px;
+}
+
+.btn.download-cv {
+  background-color: #a10505;
+}
+
+.btn.hire-me {
+  background-color: #a10505;
+  min-width: 150px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  border-radius: 50%; 
+  margin: 0 10px; 
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #a10505; 
+}
+
+.social-icons i {
+  font-size: 30px; 
+  line-height: normal;
+}
+
+

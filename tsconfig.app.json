@@ -4,9 +4,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": [
-      "node"
-    ]
+    "types": ["node"],
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "files": [
     "src/main.ts",
@@ -17,3 +17,4 @@
     "src/**/*.d.ts"
   ]
 }
+

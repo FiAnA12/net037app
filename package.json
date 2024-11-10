@@ -40,5 +40,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
-  }
+  },
+"scripts": {
+  "postinstall": "cp -r node_modules/@fortawesome/fontawesome-free/css/all.min.css src/assets/font-awesome/"
+}
 }

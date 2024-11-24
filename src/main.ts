@@ -2,7 +2,6 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { provideHttpClient } from '@angular/common/http';
 import { provideRouter, Routes } from '@angular/router';
-import { AppComponent } from './app/app.component';
 import { AboutComponent } from './app/components/about/about.component';
 import { SkillsComponent } from './app/components/skills/skills.component';
 import { PortfolioComponent } from './app/components/portfolio/portfolio.component';

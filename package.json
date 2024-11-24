@@ -42,6 +42,6 @@
     "typescript": "~5.5.2"
   },
 "scripts": {
-  "postinstall": "cp -r node_modules/@fortawesome/fontawesome-free/css/all.min.css src/assets/font-awesome/"
+  "postinstall": "cp -r node_modules/@fortawesome/fontawesome-free/webfonts src/assets/font-awesome/webfonts && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css src/assets/font-awesome/css"
 }
 }
